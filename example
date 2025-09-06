@@ -1,0 +1,13 @@
+# DATABASE_URL="postgresql://postgres:123456@localhost:5432/authdb?schema=public"
+# JWT_SECRET="your_super_secret_here"
+# JWT_EXPIRES_IN="3600s"
+# RESET_TOKEN_EXPIRES_SECONDS=900
+# OTP_EXPIRES_MINUTES=10
+
+# # SMTP (Mailtrap/Ethereal for dev)
+# # SMTP_HOST=smtp.mailtrap.io
+# # SMTP_PORT=2525
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_USER=ranarasul21@gmail.com
+# SMTP_PASS=ndus yifl wjta ipau
