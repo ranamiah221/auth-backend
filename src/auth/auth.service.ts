@@ -74,6 +74,9 @@ export class AuthService {
     if(!user){
       throw new UnauthorizedException("Unauthorized Access")
     }
+    if(!user.isEmailVerified ){
+       throw new BadRequestException("Please Verify your Email.")
+    }
     return this.users.updatePassword(userId, newPassword);
   }
 
